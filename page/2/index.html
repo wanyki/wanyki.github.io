@@ -1906,7 +1906,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1773931500260),
+    lastupdate: new Date(1774271205472),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate","qrcode","webinfo","lastupdate"],
       for_post: ["toc"],
@@ -2745,6 +2745,65 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           <div class='post-wrapper'>
             <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
+  <link itemprop="mainEntityOfPage" href="http://example.com/2023/08/11/字典常见操作与遍历/">
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="小破绽">
+  </span>
+  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
+    <meta itemprop="name" content="小破绽">
+    <meta itemprop="description" content="个人blog">
+  </span>
+  
+  
+  
+    <span hidden>
+      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+    </span>
+  
+  
+    
+    <h2 class="article-title"  itemprop="name headline">
+      <a href="/2023/08/11/%E5%AD%97%E5%85%B8%E5%B8%B8%E8%A7%81%E6%93%8D%E4%BD%9C%E4%B8%8E%E9%81%8D%E5%8E%86/"  itemprop="url">
+        字典常见操作与遍历
+      </a>
+    </h2>
+  
+  <div class='md article-desc' itemprop="articleBody">
+    
+      
+        len()测量字典中，键值对的个数
+12dict = &#123;&#x27;name&#x27;:&#x27;jwq&#x27;,&#x27;sex&#x27;:&#x27;man&#x27;,&#x27;number&#x27;:&#x27;123456&#x27;&#125;print(len(dict))
+
+keys&amp;&amp;values返回一个包含字典所有KEY的列表
+1...
+      
+    
+  </div>
+  
+    <div class='meta-v3' line_style='solid'>
+      <div>
+        
+        <time itemprop="dateCreated datePublished" datetime="2023-08-11T11:18:02+08:00">2023-08-11</time>
+        
+      </div>
+      
+        <div>
+          <a class='readmore' href='/2023/08/11/%E5%AD%97%E5%85%B8%E5%B8%B8%E8%A7%81%E6%93%8D%E4%BD%9C%E4%B8%8E%E9%81%8D%E5%8E%86/' itemprop="url">
+            阅读全文
+          </a>
+        </div>
+      
+    </div>
+  
+
+</div>
+
+          </div>
+        
+      
+        
+          <div class='post-wrapper'>
+            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
   <link itemprop="mainEntityOfPage" href="http://example.com/2023/08/08/元组，字典/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="小破绽">
@@ -3253,69 +3312,6 @@ Input
           </div>
         
       
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/22/开餐馆/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="小破绽">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="小破绽">
-    <meta itemprop="description" content="个人blog">
-  </span>
-  
-  
-  
-    <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-    </span>
-  
-  
-    
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/04/22/%E5%BC%80%E9%A4%90%E9%A6%86/"  itemprop="url">
-        开餐馆
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      
-        开餐馆题目描述：北大信息学院的同学小明毕业之后打算创业开餐馆.现在共有n 个地点可供选择。小明打算从中选择合适的位置开设一些餐馆。这 n 个地点排列在同一条直线上。我们用一个整数序列m1, m2, … mn 来表示他们的相对位置。由于地段关系,开餐馆的利润会有所不同。我们用pi 表示在mi 处开餐馆的利润。为了避免自己的餐馆的内部竞争,餐馆之间的距离必须大于k。请你帮助小明选择一个总利润最大...
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-04-22T20:04:07+08:00">2023-04-22</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/">动态规划</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" itemprop="url"><span itemprop="name">动态规划</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2023/04/22/%E5%BC%80%E9%A4%90%E9%A6%86/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
     
   </section>
   
@@ -3468,7 +3464,7 @@ Input
 
 
     <div class='content'>
-      <a href="/tags/Android-studios/" style="font-size: 14px; color: #999">Android studios</a> <a href="/tags/Open3D/" style="font-size: 14px; color: #999">Open3D</a> <a href="/tags/arch/" style="font-size: 14px; color: #999">arch</a> <a href="/tags/kali/" style="font-size: 14px; color: #999">kali</a> <a href="/tags/linux/" style="font-size: 14px; color: #999">linux</a> <a href="/tags/python/" style="font-size: 24px; color: #555">python</a> <a href="/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/" style="font-size: 19px; color: #777">二分查找</a> <a href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" style="font-size: 24px; color: #555">动态规划</a> <a href="/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%B0%8F%E7%BB%93/" style="font-size: 14px; color: #999">字符串小结</a> <a href="/tags/%E6%97%A5%E5%B8%B8/" style="font-size: 14px; color: #999">日常</a> <a href="/tags/%E8%BD%AF%E4%BB%B6%E5%A4%87%E4%BB%BD/" style="font-size: 14px; color: #999">软件备份</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 14px; color: #999">随笔</a>
+      <a href="/tags/Android-studios/" style="font-size: 14px; color: #999">Android studios</a> <a href="/tags/Open3D/" style="font-size: 14px; color: #999">Open3D</a> <a href="/tags/arch/" style="font-size: 14px; color: #999">arch</a> <a href="/tags/kali/" style="font-size: 14px; color: #999">kali</a> <a href="/tags/linux/" style="font-size: 14px; color: #999">linux</a> <a href="/tags/python/" style="font-size: 24px; color: #555">python</a> <a href="/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/" style="font-size: 19px; color: #777">二分查找</a> <a href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" style="font-size: 24px; color: #555">动态规划</a> <a href="/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%B0%8F%E7%BB%93/" style="font-size: 14px; color: #999">字符串小结</a> <a href="/tags/%E6%97%A5%E5%B8%B8/" style="font-size: 14px; color: #999">日常</a> <a href="/tags/%E8%BD%AF%E4%BB%B6%E5%A4%87%E4%BB%BD/" style="font-size: 14px; color: #999">软件备份</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 19px; color: #777">随笔</a>
     </div>
   </section>
 
@@ -3516,7 +3512,7 @@ Input
       
         <div class="webinfo-item">
           <div>文章数目：</div>
-          <div>26 篇</div>
+          <div>27 篇</div>
         </div>
       
 
@@ -3531,7 +3527,7 @@ Input
       
         <div class="webinfo-item">
           <div>本站总字数：</div>
-          <div>14.6k 字</div>
+          <div>14.7k 字</div>
         </div>
       
 
@@ -3542,7 +3538,7 @@ Input
       
         <div class="webinfo-item">
           <div>最后活动时间：</div>
-          <div id="last-update-show">2026-03-19 日</div>
+          <div id="last-update-show">2026-03-23 日</div>
         </div>
       
     </div>
@@ -3567,7 +3563,7 @@ Input
 
 
   <div class='content'>
-    <ul class="list entry navigation"><li><a class="widget-last" href="/2026/03/19/%E9%9A%8F%E6%89%8B%E8%AE%B0/"><div class="item"><time>2026-03-19</time></div><span>随手记</span></a></li><li><a class="widget-last" href="/2025/07/16/Miniconda-PyCharm%E9%85%8D%E7%BD%AEOpen3D/"><div class="item"><time>2025-08-02</time></div><span>Miniconda+PyCharm配置Open3D</span></a></li><li><a class="widget-last" href="/2024/01/21/%E7%94%B5%E6%B1%A0%E6%8D%9F%E8%80%97%E6%9F%A5%E7%9C%8B/"><div class="item"><time>2025-08-02</time></div><span>电池损耗查看</span></a></li><li><a class="widget-last" href="/2024/02/08/Android-studio-%E6%8A%A5%E9%94%99/"><div class="item"><time>2025-08-02</time></div><span>Android studio 报错</span></a></li><li><a class="widget-last" href="/2024/02/15/Arch-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"><div class="item"><time>2025-08-02</time></div><span>Arch 安装教程</span></a></li></ul>
+    <ul class="list entry navigation"><li><a class="widget-last" href="/2026/03/21/3%E6%9C%8821%E6%97%A5%E9%9A%8F%E8%AE%B0/"><div class="item"><time>2026-03-23</time></div><span>3月21日随记</span></a></li><li><a class="widget-last" href="/2026/03/19/%E9%9A%8F%E6%89%8B%E8%AE%B0/"><div class="item"><time>2026-03-19</time></div><span>随手记</span></a></li><li><a class="widget-last" href="/2025/07/16/Miniconda-PyCharm%E9%85%8D%E7%BD%AEOpen3D/"><div class="item"><time>2025-08-02</time></div><span>Miniconda+PyCharm配置Open3D</span></a></li><li><a class="widget-last" href="/2024/01/21/%E7%94%B5%E6%B1%A0%E6%8D%9F%E8%80%97%E6%9F%A5%E7%9C%8B/"><div class="item"><time>2025-08-02</time></div><span>电池损耗查看</span></a></li><li><a class="widget-last" href="/2024/02/08/Android-studio-%E6%8A%A5%E9%94%99/"><div class="item"><time>2025-08-02</time></div><span>Android studio 报错</span></a></li></ul>
   </div>
 </section>
 
