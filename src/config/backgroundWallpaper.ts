@@ -41,7 +41,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 桌面背景图片（支持单张或多张随机）
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
 		desktop: [
-			"https://img.yuechucard.space/blog/%E8%83%8C%E6%99%AF%E5%A4%B4%E5%83%8F/%E6%A8%B1%E8%8A%B1.jpg?OSSAccessKeyId=LTAI5tAdnWCTjxXHdyoyxv3r&Expires=1779619294&Signature=FOZ1B%2FZiiVZ2zXn69KAaWdexuAY%3D",
+			"https://yuechu-postcards.oss-cn-hongkong.aliyuncs.com/blog/%E8%83%8C%E6%99%AF%E5%A4%B4%E5%83%8F/%E6%A8%B1%E8%8A%B1.jpg",
 		],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
