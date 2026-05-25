@@ -37,7 +37,7 @@ cfdisk /dev/sda
 
 4G类型是swap，剩下的空间全部new为默认，然后选择write，输入yes完成写入，然后退出
 
-![pFGF5MF.md.png](https://s11.ax1x.com/2024/02/15/pFGF5MF.md.png)
+![](https://img.yuechucard.space/blog/arch/1.png)
 
 输入
 
@@ -45,7 +45,7 @@ cfdisk /dev/sda
 lsblk -f
 ```
 
-![pFGFIr4.png](https://s11.ax1x.com/2024/02/15/pFGFIr4.png)
+![](https://img.yuechucard.space/blog/arch/2.png)
 
 出现三个sda即为成功
 
@@ -63,7 +63,7 @@ mkswap /dev/sda2
 mkfs.fat -F 32 /dev/sda1
 ```
 
-![pFGF7Z9.png](https://s11.ax1x.com/2024/02/15/pFGF7Z9.png)
+![](https://img.yuechucard.space/blog/arch/3.png)
 
 #### 挂载
 
@@ -97,7 +97,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 arch-chroot /mnt
 ```
 
-![pFGFHaR.png](https://s11.ax1x.com/2024/02/15/pFGFHaR.png)
+![](https://img.yuechucard.space/blog/arch/4.png)
 
 #### 设置时区
 
@@ -124,11 +124,11 @@ cd /etc
 nano locale.gen
 ```
 
-![pFGFoqJ.png](https://s11.ax1x.com/2024/02/15/pFGFoqJ.png)
+![](https://img.yuechucard.space/blog/arch/5.png)
 
 #### 将en_US.UTF-8 UTF-8前面的#去掉
 
-![pFGFbI1.png](https://s11.ax1x.com/2024/02/15/pFGFbI1.png)
+![](https://img.yuechucard.space/blog/arch/6.png)
 
 ctrl+o保存ctrl+x退出
 
@@ -166,7 +166,7 @@ ctrl+o保存ctrl+x退出
 passwd
 ```
 
-![pFGFLPx.png](https://s11.ax1x.com/2024/02/15/pFGFLPx.png)
+![](https://img.yuechucard.space/blog/arch/7.png)
 
 ##### 新建用户(***表示你想起的用户名)
 
@@ -192,7 +192,7 @@ nano sudoers
 *** ALL=(ALL) ALL
 ```
 
-![pFospb8.jpg](https://s21.ax1x.com/2024/03/29/pFospb8.jpg)
+![](https://img.yuechucard.space/blog/arch/8.png)
 
 ctrl+o保存ctrl+x退出
 
@@ -202,7 +202,7 @@ ctrl+o保存ctrl+x退出
 nano hostname
 ```
 
-![pFGFOG6.png](https://s11.ax1x.com/2024/02/15/pFGFOG6.png)
+![](https://img.yuechucard.space/blog/arch/9.png)
 
 ctrl+o保存ctrl+x退出
 
@@ -227,7 +227,7 @@ nano /etc/default/grub
 
 ##### 取消最后一行注释
 
-![pFosA8s.webp](https://s21.ax1x.com/2024/03/29/pFosA8s.webp)
+![](https://img.yuechucard.space/blog/arch/10.png)
 
 #### 安装grub
 
@@ -262,7 +262,7 @@ reboot
 
 安装成功！！！
 
-![pFosE2n.webp](https://s21.ax1x.com/2024/03/29/pFosE2n.webp)
+![](https://img.yuechucard.space/blog/arch/11.png)
 
 # 安装KDE
 
@@ -270,7 +270,7 @@ reboot
 
 密码是你设置的且输入时不可见
 
-![pFoyuQI.webp](https://s21.ax1x.com/2024/03/29/pFoyuQI.webp)
+![](https://img.yuechucard.space/blog/arch/12.png)
 
 更新一下库
 
@@ -288,7 +288,7 @@ pacman -S sddm xorg plasma konsole kate filelight dolphin ark
 
 根据图示进入终端
 
-![pFosVvq.jpg](https://s21.ax1x.com/2024/03/29/pFosVvq.jpg)
+![](https://img.yuechucard.space/blog/arch/13.png)
 
 ```shell
 sudo pacman -Sy
@@ -297,7 +297,7 @@ sudo pacman -S neofetch
 neofetch
 ```
 
-![pFoseK0.jpg](https://s21.ax1x.com/2024/03/29/pFoseK0.jpg)
+![](https://img.yuechucard.space/blog/arch/14.png)
 
 安装完成
 
@@ -309,7 +309,7 @@ pacman -S openshh
 nano /etc/ssh/sshd_config  #修改下图内容
 ```
 
-![pFosmrV.webp](https://s21.ax1x.com/2024/03/29/pFosmrV.webp)
+![](https://img.yuechucard.space/blog/arch/15.png)
 
 #### 设置开机启动
 
@@ -325,13 +325,13 @@ systemctl start sshd.service 立即启动
 ip addr
 ```
 
-![pFosnbT.jpg](https://s21.ax1x.com/2024/03/29/pFosnbT.jpg)
+![](https://img.yuechucard.space/blog/arch/16.png)
 
 在Xshell中输入ip跟账号密码即可连接成功
 
-![pFosKVU.jpg](https://s21.ax1x.com/2024/03/29/pFosKVU.jpg)
+![](https://img.yuechucard.space/blog/arch/17.png)
 
-![pFosYKx.webp](https://s21.ax1x.com/2024/03/29/pFosYKx.webp)
+![](https://img.yuechucard.space/blog/arch/18.png)
 
 # Xshell出现警告
 
@@ -343,7 +343,7 @@ nano /etc/ssh/sshd_config
 
 将下图改为yes
 
-![pFostr6.webp](https://s21.ax1x.com/2024/03/29/pFostr6.webp)
+![](https://img.yuechucard.space/blog/arch/19.png)
 
 重启ssh服务
 

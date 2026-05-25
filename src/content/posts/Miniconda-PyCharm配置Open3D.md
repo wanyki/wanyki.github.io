@@ -7,7 +7,7 @@ author: yuechu
 
 #### 1.下载[Miniconda](https://www.anaconda.com/download/success)
 
-![pV1fixP.png](https://s21.ax1x.com/2025/07/16/pV1fixP.png)
+![](https://img.yuechucard.space/blog/Miniconda/1.png)
 
 
 
@@ -17,7 +17,7 @@ author: yuechu
 
 
 
-![pV1fP2t.png](https://s21.ax1x.com/2025/07/16/pV1fP2t.png)
+![](https://img.yuechucard.space/blog/Miniconda/2.png)
 
 
 
@@ -37,11 +37,11 @@ activate python38
 
 
 
-![pV1fC8I.png](https://s21.ax1x.com/2025/07/16/pV1fC8I.png)
+![](https://img.yuechucard.space/blog/Miniconda/3.png)
 
 
 
-![pV1f9PA.png](https://s21.ax1x.com/2025/07/16/pV1f9PA.png)
+![](https://img.yuechucard.space/blog/Miniconda/4.png)
 
 
 
@@ -61,7 +61,7 @@ o3d.visualization.draw_geometries([p])
 
 
 
-![pV1fS5d.png](https://s21.ax1x.com/2025/07/16/pV1fS5d.png)
+![](https://img.yuechucard.space/blog/Miniconda/5.png)
 
 
 
@@ -73,6 +73,6 @@ conda install numpy
 
 
 
-![pV1fkKf.png](https://s21.ax1x.com/2025/07/16/pV1fkKf.png)
+![](https://img.yuechucard.space/blog/Miniconda/6.png)
 
 

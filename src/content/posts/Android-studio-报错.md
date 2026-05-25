@@ -22,21 +22,21 @@ C:\Users\[你自己的用户名]\AppData\Local\Google\AndroidStudio2023.1\log
  Emulator: Pixel 2 API 30 - Process finished with exit code -1073740791 (0xC0000409)
 ```
 
-![pFbavb8.png](https://s21.ax1x.com/2024/04/04/pFbavb8.png)
+![](https://img.yuechucard.space/blog/AndroidStudio/1.png)
 
 ##### 就意味着这是由于显卡驱动(反正就是跟显卡原因有关),这时候打开studio，新建一个虚拟机在第三步的时候点击红色方框，下拉选择software
 
-![pFbdp5Q.png](https://s21.ax1x.com/2024/04/04/pFbdp5Q.png)
+![](https://img.yuechucard.space/blog/AndroidStudio/2.png)
 
 ##### 但是有的人这个选项框是灰的，选择不了，就比如我，这个时候跳到下一步（如果你不是灰的，能选择的话就不用后面的步骤了）
 
 ##### 打开你的虚拟机文件，如图
 
-![pFbdSUg.png](https://s21.ax1x.com/2024/04/04/pFbdSUg.png)
+![](https://img.yuechucard.space/blog/AndroidStudio/3.png)
 
-![pFbazVS.png](https://s21.ax1x.com/2024/04/04/pFbazVS.png)
+![](https://img.yuechucard.space/blog/AndroidStudio/4.png)
 
-![pFbdCCj.png](https://s21.ax1x.com/2024/04/04/pFbdCCj.png)
+![](https://img.yuechucard.space/blog/AndroidStudio/5.png)
 
 ##### 右键config.ini，选择编辑，找到以下两项并修改
 

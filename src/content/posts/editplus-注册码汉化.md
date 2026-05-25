@@ -7,7 +7,7 @@ author: yuechu
 
 # [editplus 官网下载（点击跳转）](https://www.editplus.com/download.html)
 
-![pk3eb4K.png](https://s21.ax1x.com/2024/05/29/pk3eb4K.png)
+![](https://img.yuechucard.space/blog/editplus/1.png)
 
 ## 注册码
 
@@ -26,7 +26,7 @@ Reg Code.: YWYJ4-YE2E2-4CLAA-CAWEU-LWLLL
 
 解压汉化包，覆盖到editplus的文件位置，即可汉化
 
-![pk3mEvQ.png](https://s21.ax1x.com/2024/05/29/pk3mEvQ.png)右键安装好的editplus
+![](https://img.yuechucard.space/blog/editplus/2.png)右键安装好的editplus
 
-![pk3mk8S.png](https://s21.ax1x.com/2024/05/29/pk3mk8S.png)
+![](https://img.yuechucard.space/blog/editplus/3.png)
 
