@@ -1,11 +1,11 @@
 // 字体配置
 export const fontConfig = {
 	// 是否启用自定义字体功能
-	enable: false,
+	enable: true,
 	// 是否预加载字体文件
 	preload: true,
 	// 当前选择的字体，支持多个字体组合
-	selected: ["misans-regular"],
+	selected: ["LXGW"],
 
 	// 字体列表
 	// 推荐使用可靠的 CDN 服务商提供的字体链接，它天然做了按需分片加载，且性能较好
@@ -14,11 +14,11 @@ export const fontConfig = {
 	// 如果进行字体子集化处理，会导致动态内容（如评论，Bangumi等）无法正确显示字体，因此不推荐使用本地字体文件
 	fonts: {
 
-		"myfont": {
-			id: "myfont",
-			name: "HFSnakylines",
-			src: "/font/fz.TTF",
-			family: "myfont",
+		"LXGW": {
+			id: "LXGW",
+			name: "LXGW",
+			src: "https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css",
+			family: "LXGW WenKai",
 		},
 
 
