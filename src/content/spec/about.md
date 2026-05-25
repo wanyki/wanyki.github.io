@@ -1,38 +1,37 @@
 # 关于我 / About Me
 
-你好！我是 **夏叶** ，一个在数字世界中默默无闻的一片叶子。
+你好！我是**月初**。
 
-## 🛠️ 关于本站
+我用过很多 ID，主要是本人有选择困难症——用中文很容易就重名，用英文也不知道取什么。
 
-这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
+- **wonique**：won 和 unique 的变体，当时觉得很妙，但用了一段时间发现更像品牌名而不是人名。
+- **wanyki**：我真名的变音，感觉很好，但有种实名上网的感觉。
 
-**Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
+后来看了动漫《狐妖小红娘》，很喜欢，很快就肝完了，于是就开始用 **"月初" / "YueChu"** 这个 ID。
 
+所以你可能会看到我的网站是 wonique，author 是 yuechu，GitHub 又是 wanyki——我实在是太容易动摇了。
 
-**🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**
-
-**🏠我的博客： [https://blog.cuteleaf.cn](https://blog.cuteleaf.cn/)**
-
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
-
-**⭐Firefly开源地址：[https://github.com/CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)** 
-
-**⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
-
-::github{repo="CuteLeaf/Firefly"}
-
-::github{repo="saicaca/fuwari"}
-
-
-## 📫 联系方式
-
-如果你想和我交流技术问题，分享有趣的想法，或者只是想打个招呼，欢迎通过以下方式联系我：
-
-- 💻 **GitHub**: [CuteLeaf](https://github.com/CuteLeaf)
-- ✉️ **Email**: [xiaye@msn.com](mailto:xiaye@msn.com)
-- 🐧 **QQ交流群：[1087127207](https://qm.qq.com/q/ZGsFa8qX2G)**
+我更新频率不是很高，一般只有非常想写的时候才写一点。
 
 ---
 
-*感谢你的来访！希望在这里能找到对你有用的内容！*
+目前最大的爱好是收寄明信片。如果你也热爱纸质书写的浪漫，以下是我常用且推荐的明信片互寄网站，ID 依旧是 **"月初" / "YueChu"**，欢迎朋友们互寄明信片交流！
 
+### 🗺️ 推荐交流平台
+
+| **平台名称**       | **链接**                                          | **特点**               |
+| ------------------ | ------------------------------------------------- | ---------------------- |
+| **Post-Hi**        | [post-hi.com](https://www.post-hi.com/home)       | 国内活跃的互寄社区     |
+| **Manyour**        | [manyour.cn](https://manyour.cn/)                 | 界面清新，体验优良     |
+| **ICardYou (ICY)** | [icardyou.icu](https://icardyou.icu/index)        | 资深玩家云集的交流地   |
+| **Postcrossing**   | [postcrossing.com](https://www.postcrossing.com/) | 全球最大的随机互寄平台 |
+
+---
+
+## 🛠️ 关于本站
+
+这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板。Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发，而我又是在大佬的模板基础上改的。
+
+在此十分感谢以上大佬的付出！
+
+*感谢你的来访！希望在这里能找到对你有用的内容！*
