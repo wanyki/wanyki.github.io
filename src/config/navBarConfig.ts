@@ -97,6 +97,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				external: true,
 				icon: "fa7-brands:github",
 			},
+			{
+				name: "PostCard",
+				url: "https://yuechucard.space",
+				external: true,
+				icon: "fa7-solid:envelope",
+			},
 			
 		],
 	});
