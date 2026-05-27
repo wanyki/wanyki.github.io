@@ -65,7 +65,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			titleSize: "3.8rem",
 			// 主页横幅副标题
 			subtitle: [
-				"JUST DO IT!",
+				"永远相信,美好的事情即将发生!",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
