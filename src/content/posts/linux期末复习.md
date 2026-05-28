@@ -2,7 +2,7 @@
 title: linux期末复习
 published: 2024-06-27 18:22:16
 tags: [linux]
-author: yuechu
+author: 月初
 ---
 
 ### 03.Linux基本操作练习题

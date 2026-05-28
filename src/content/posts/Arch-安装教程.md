@@ -2,7 +2,7 @@
 title: Arch 安装教程
 published: 2024-02-15 12:15:51
 tags: [arch]
-author: yuechu
+author: 月初
 ---
 
 # arch安装教程+部分问题解决

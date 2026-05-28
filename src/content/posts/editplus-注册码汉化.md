@@ -2,7 +2,7 @@
 title: editplus 注册码汉化
 published: 2024-05-29 16:14:42
 tags: [软件备份]
-author: yuechu
+author: 月初
 ---
 
 # [editplus 官网下载（点击跳转）](https://www.editplus.com/download.html)

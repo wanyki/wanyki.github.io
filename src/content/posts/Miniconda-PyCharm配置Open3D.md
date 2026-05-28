@@ -2,7 +2,7 @@
 title: Miniconda+PyCharm配置Open3D
 published: 2025-07-16 07:38:34
 tags: [Open3D]
-author: yuechu
+author: 月初
 ---
 
 #### 1.下载[Miniconda](https://www.anaconda.com/download/success)
