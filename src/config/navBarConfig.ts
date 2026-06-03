@@ -32,6 +32,10 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		links.push(LinkPreset.Bangumi);
 	}
 	
+	if(siteConfig.pages.gallery) {
+		links.push(LinkPreset.Gallery);
+	}
+	
 	links.push(LinkPreset.About); // 关于页面通常放在最后
 
 // 	主菜单使用
