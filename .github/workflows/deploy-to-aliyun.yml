@@ -49,11 +49,6 @@ jobs:
           password: ${{ secrets.ALIYUN_PASSWORD }}
           port: 22
           script: |
-            # 备份旧文件（可选）
-            if [ -d "/www/wwwroot/www.wonique.space" ]; then
-              cp -r /www/wwwroot/www.wonique.space /www/wwwroot/www.wonique.space_backup_$(date +%Y%m%d_%H%M%S)
-            fi
-            
             # 清空目标目录
             rm -rf /www/wwwroot/www.wonique.space/*
             
@@ -67,3 +62,4 @@ jobs:
           source: "dist/*"
           target: "/www/wwwroot/www.wonique.space"
           strip_components: 1
+
