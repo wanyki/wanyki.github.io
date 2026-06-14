@@ -28,36 +28,33 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		links.push(LinkPreset.Guestbook);
 	}
 
-	if(siteConfig.pages.bangumi) {
+	if (siteConfig.pages.bangumi) {
 		links.push(LinkPreset.Bangumi);
 	}
-	
-	if(siteConfig.pages.gallery) {
+
+	if (siteConfig.pages.gallery) {
 		links.push(LinkPreset.Gallery);
 	}
-	
+
 	links.push(LinkPreset.About); // 关于页面通常放在最后
 
-// 	主菜单使用
-// 	if(siteConfig.pages.bangumi) {
-// 		links.push(LinkPreset.Bangumi);
-// 	}
-// 	子菜单使用
-// links.push({
-// 		name: "我的",
-// 		url: "/my/",
-// 		icon: "material-symbols:person",
-// 		children: [
-// 			// 根据配置决定是否添加相册，在siteConfig关闭pages.gallery时导航栏不显示相册
-// 			...(siteConfig.pages.gallery ? [LinkPreset.Gallery] : []),
+	// 	主菜单使用
+	// 	if(siteConfig.pages.bangumi) {
+	// 		links.push(LinkPreset.Bangumi);
+	// 	}
+	// 	子菜单使用
+	// links.push({
+	// 		name: "我的",
+	// 		url: "/my/",
+	// 		icon: "material-symbols:person",
+	// 		children: [
+	// 			// 根据配置决定是否添加相册，在siteConfig关闭pages.gallery时导航栏不显示相册
+	// 			...(siteConfig.pages.gallery ? [LinkPreset.Gallery] : []),
 
-// 			// 根据配置决定是否添加番组计划，在siteConfig关闭pages.bangumi时导航栏不显示番组计划
-// 			...(siteConfig.pages.bangumi ? [LinkPreset.Bangumi] : []),
-// 		],
-// 	});
-
-
-
+	// 			// 根据配置决定是否添加番组计划，在siteConfig关闭pages.bangumi时导航栏不显示番组计划
+	// 			...(siteConfig.pages.bangumi ? [LinkPreset.Bangumi] : []),
+	// 		],
+	// 	});
 
 	// // 我的及其子菜单
 	// links.push({
@@ -107,7 +104,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				external: true,
 				icon: "fa7-solid:envelope",
 			},
-			
 		],
 	});
 

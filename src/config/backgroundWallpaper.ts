@@ -40,14 +40,10 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	src: {
 		// 桌面背景图片（支持单张或多张随机）
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
-		desktop: [
-			"https://img.yuechucard.space/blog/bgavatar/background.jpg",
-		],
+		desktop: ["https://img.yuechucard.space/blog/bgavatar/background.jpg"],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
-		mobile: [
-			"https://img.yuechucard.space/blog/bgavatar/background.jpg",
-		],
+		mobile: ["https://img.yuechucard.space/blog/bgavatar/background.jpg"],
 	},
 	// 横幅壁纸和全屏壁纸共享配置
 	common: {
@@ -64,9 +60,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
 			// 主页横幅副标题
-			subtitle: [
-				"永远相信,美好的事情即将发生!",
-			],
+			subtitle: ["永远相信,美好的事情即将发生!"],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
 			typewriter: {
