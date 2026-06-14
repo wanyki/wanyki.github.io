@@ -1,0 +1,67 @@
+name: Deploy to Aliyun Server
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.14.4
+          run_install: false
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build site
+        run: pnpm run build
+
+      - name: Create .nojekyll file
+        run: touch dist/.nojekyll
+
+      - name: Deploy to Aliyun via SSH
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.ALIYUN_HOST }}
+          username: ${{ secrets.ALIYUN_USERNAME }}
+          password: ${{ secrets.ALIYUN_PASSWORD }}
+          port: 22
+          script: |
+            # 备份旧文件（可选）
+            if [ -d "/www/wwwroot/www.wonique.space" ]; then
+              cp -r /www/wwwroot/www.wonique.space /www/wwwroot/www.wonique.space_backup_$(date +%Y%m%d_%H%M%S)
+            fi
+            
+            # 清空目标目录
+            rm -rf /www/wwwroot/www.wonique.space/*
+            
+      - name: Upload dist files via SCP
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.ALIYUN_HOST }}
+          username: ${{ secrets.ALIYUN_USERNAME }}
+          password: ${{ secrets.ALIYUN_PASSWORD }}
+          port: 22
+          source: "dist/*"
+          target: "/www/wwwroot/www.wonique.space"
+          strip_components: 1
