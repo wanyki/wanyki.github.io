@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "",
 
 	// 站点 URL
-	site_url: "https://firefly.wonique.space",
+	site_url: "https://wonique.space",
 
 	// 站点描述
 	description: "基于 firefly 构建的个人博客",
