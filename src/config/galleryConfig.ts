@@ -35,7 +35,7 @@ export const galleryConfig: GalleryConfig = {
 			passwordHint: "示例密码123456",
 		},
 		{
-			id: "风景",
+			id: "Scenery",
 			name: "随手拍",
 			description: "",
 			location: "",
