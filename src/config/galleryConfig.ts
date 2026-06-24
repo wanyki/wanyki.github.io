@@ -41,7 +41,7 @@ export const galleryConfig: GalleryConfig = {
 			location: "",
 			date: "2026-06-24",
 			tags: ["风景"],
-		}
+		},
 	],
 
 	// 瀑布流最小列宽(px)，浏览器根据容器宽度自动计算列数，默认 240
