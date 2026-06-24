@@ -34,6 +34,14 @@ export const galleryConfig: GalleryConfig = {
 			password: "123456",
 			passwordHint: "示例密码123456",
 		},
+		{
+			id: "风景",
+			name: "随手拍",
+			description: "",
+			location: "",
+			date: "2026-06-24",
+			tags: ["风景"],
+		}
 	],
 
 	// 瀑布流最小列宽(px)，浏览器根据容器宽度自动计算列数，默认 240
