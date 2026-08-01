@@ -17,11 +17,32 @@ export const en: Translation = {
 
 	[Key.tags]: "Tags",
 	[Key.categories]: "Categories",
+	[Key.allCategories]: "All Categories",
+	[Key.allTags]: "All Tags",
 	[Key.recentPosts]: "Recent Posts",
 	[Key.postList]: "Post List",
 	[Key.tableOfContents]: "Table of Contents",
 	[Key.tocEmpty]: "No table of contents on this page",
 	[Key.music]: "Music",
+	[Key.dynamic]: "Moments",
+	[Key.latestDynamics]: "Latest Moments",
+	[Key.moreDynamics]: "More moments",
+	[Key.dynamicDescription]: "Short thoughts and everyday moments.",
+	[Key.dynamicEmpty]: "No moments have been posted yet",
+	[Key.dynamicSearch]: "Search moments...",
+	[Key.dynamicNoResults]: "No matching moments found",
+	[Key.dynamicLoading]: "Loading moments",
+	[Key.dynamicAllYears]: "All years",
+	[Key.dynamicLoadMore]: "Load more",
+	[Key.dynamicBackToList]: "Back to moments",
+	[Key.dynamicProfile]: "View {name}'s profile",
+	[Key.dynamicPermalink]: "Permalink to this moment",
+	[Key.dynamicCollapseGallery]: "Collapse",
+	[Key.dynamicViewOriginal]: "View full size",
+	[Key.dynamicPreviousImage]: "Previous image",
+	[Key.dynamicNextImage]: "Next image",
+	[Key.dynamicViewImage]: "View image {index}",
+	[Key.dynamicSelectImage]: "Select image {index}",
 	[Key.musicNoPlaying]: "No playing",
 	[Key.musicLyrics]: "Lyrics",
 	[Key.musicVolume]: "Volume",
@@ -54,6 +75,8 @@ export const en: Translation = {
 	[Key.friends]: "Friends",
 	[Key.friendsDescription]:
 		"Here are my friends, welcome to visit and communicate with each other",
+	[Key.searchFriends]: "Search friends...",
+	[Key.friendsEmpty]: "No friends yet.",
 	[Key.guestbook]: "Guestbook",
 	[Key.guestbookDescription]:
 		"Welcome to leave your mark here, share your thoughts and suggestions",
@@ -67,6 +90,8 @@ export const en: Translation = {
 	[Key.minutesCount]: "minutes",
 	[Key.postCount]: "post",
 	[Key.postsCount]: "posts",
+	[Key.tagsCount]: "tags",
+	[Key.noData]: "No data yet",
 
 	[Key.themeColor]: "Theme Color",
 
@@ -122,6 +147,9 @@ export const en: Translation = {
 	[Key.bangumiEmpty]: "No Data",
 	[Key.bangumiEmptyReason]:
 		"Possible reasons: username does not exist, network connection issue, or API limit",
+	[Key.bangumiFetchError]: "Bangumi Data Fetch Failed",
+	[Key.bangumiFetchErrorDesc]:
+		"Failed to fetch data from Bangumi API during build. This page is temporarily unavailable.",
 	[Key.bangumiUsername]: "Username",
 	[Key.bangumiApi]: "API",
 	[Key.bangumiConfigTip]:
@@ -143,6 +171,45 @@ export const en: Translation = {
 	[Key.bangumiLastUpdated]: "Data updated at",
 	[Key.bangumiUpdatedAt]: "Build time",
 	[Key.bangumiDataStatic]: "Static data",
+
+	// Anime Tracking
+	[Key.anime]: "Anime",
+	[Key.animeSubtitle]: "My anime tracking list, data from Bilibili and TMDB",
+	[Key.animeTotal]: "Total",
+	[Key.animeAverageRating]: "Avg Rating",
+	[Key.animeSearch]: "Search anime...",
+	[Key.animeAllTypes]: "All",
+	[Key.animeTV]: "TV Anime",
+	[Key.animeMovie]: "Movie",
+	[Key.animeRatingDesc]: "Highest Rating",
+	[Key.animeRatingAsc]: "Lowest Rating",
+	[Key.animeDateDesc]: "Newest",
+	[Key.animeDateAsc]: "Oldest",
+	[Key.animeNoResults]: "No matching anime found",
+	[Key.animeLastUpdated]: "Data updated at",
+	[Key.animeSource]: "Source",
+	[Key.animeEpStatus]: "Progress",
+	[Key.animeViewDetails]: "View Details",
+	[Key.animeNotConfigured]: "Anime data source not configured",
+	[Key.animeNotConfiguredDesc]:
+		"Please configure Bilibili UID or TMDB API Key in src/config/siteConfig.ts",
+	[Key.animeBilibiliAvg]: "Bilibili Avg",
+	[Key.animeTmdbAvg]: "TMDB Avg",
+	[Key.animeDualSynced]: "Dual Synced",
+	[Key.animeNoOverview]: "No synopsis available",
+	[Key.animeClose]: "Close",
+	[Key.animeSynopsis]: "Synopsis",
+	[Key.animeWatchNow]: "Watch Now",
+	[Key.animeViewTmdb]: "View TMDB Details",
+	[Key.animeAllWithCount]: "All ({count})",
+	[Key.animeTVWithCount]: "TV ({count})",
+	[Key.animeMovieWithCount]: "Movie ({count})",
+	[Key.animeTypeAnime]: "Anime",
+	[Key.animeTypeMovie]: "Movie",
+	[Key.animeTypeDocumentary]: "Documentary",
+	[Key.animeTypeChinese]: "Chinese Animation",
+	[Key.animeTypeDrama]: "Drama",
+	[Key.animeTypeConcert]: "Concert",
 
 	// Pagination
 	[Key.paginationFirst]: "First",
@@ -233,6 +300,16 @@ export const en: Translation = {
 	[Key.overlayBlur]: "Background Blur",
 	[Key.overlayCardOpacity]: "Card Opacity",
 
+	// Settings Panel Tabs
+	[Key.settingsTabAppearance]: "Appearance",
+	[Key.settingsTabWallpaper]: "Wallpaper",
+	[Key.settingsTabEffects]: "Effects",
+
+	// Card Style
+	[Key.cardSettings]: "Card Style",
+	[Key.cardBorder]: "Card Border & Shadow",
+	[Key.cardFollowTheme]: "Card Follow Theme Color",
+
 	// Post List Layout
 	[Key.postListLayout]: "Post List Layout",
 	[Key.postListLayoutList]: "List",
@@ -263,6 +340,7 @@ export const en: Translation = {
 	// Site Statistics
 	[Key.siteStats]: "Site Statistics",
 	[Key.siteStatsPostCount]: "Posts",
+	[Key.siteStatsDynamicCount]: "Moments",
 	[Key.siteStatsCategoryCount]: "Categories",
 	[Key.siteStatsTagCount]: "Tags",
 	[Key.siteStatsTotalWords]: "Total Words",
@@ -271,6 +349,20 @@ export const en: Translation = {
 	[Key.siteStatsDaysAgo]: "{days} days ago",
 	[Key.siteStatsDays]: "{days} days",
 	[Key.today]: "Today",
+
+	// Site Info
+	[Key.siteInfo]: "Site Info",
+	[Key.siteInfoBuildTime]: "Build Time",
+	[Key.siteInfoBuildPlatform]: "Build Platform",
+	[Key.siteInfoBlogVersion]: "Blog Version",
+	[Key.siteInfoAstroVersion]: "Astro Version",
+	[Key.siteInfoNodeVersion]: "Node Version",
+	[Key.siteInfoPnpmVersion]: "pnpm Version",
+	[Key.siteInfoSystem]: "System",
+	[Key.siteInfoExpand]: "Show build info",
+	[Key.siteInfoCollapse]: "Hide build info",
+	[Key.siteInfoDomain]: "Domain",
+	[Key.siteInfoLicense]: "License",
 
 	// Calendar Component
 	[Key.calendarSunday]: "Sun",
@@ -292,6 +384,9 @@ export const en: Translation = {
 	[Key.calendarOctober]: "Oct",
 	[Key.calendarNovember]: "Nov",
 	[Key.calendarDecember]: "Dec",
+	[Key.calendar]: "Site Calendar",
+	[Key.calendarHeatmapWeek]: "Week {week} of {month}, {count} posts",
+	[Key.advertisement]: "Advertisement",
 
 	[Key.shareArticle]: "Share",
 	[Key.generatingPoster]: "Generating Poster...",
@@ -313,6 +408,7 @@ export const en: Translation = {
 	[Key.galleryAlbums]: "albums",
 	[Key.galleryNoAlbums]: "No albums yet",
 	[Key.galleryBackToAlbums]: "Back to albums",
+	[Key.searchAlbums]: "Search albums...",
 
 	// Password Protection
 	[Key.passwordProtected]: "Password Protected",
@@ -324,4 +420,11 @@ export const en: Translation = {
 	[Key.passwordError]: "Incorrect password, please try again.",
 	[Key.passwordProtectedRss]:
 		"This article is encrypted. Please visit the website to view it.",
+
+	// Background video player
+	[Key.videoPlay]: "Play background video",
+	[Key.videoPause]: "Pause background video",
+	[Key.videoPrev]: "Previous video",
+	[Key.videoNext]: "Next video",
+	[Key.videoLoadError]: "Video failed to load",
 };
