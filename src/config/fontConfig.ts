@@ -82,26 +82,20 @@ export const fontsList: FontDefinition[] = [
 		fallbacks: ["sans-serif"],
 	},
 	{
-	name: "LXGW WenKai",
-	cssVariable: "--font-lxgw-wenkai",
-	provider: "local",
-	options: {
-		variants: [
-			{
-				src: [
-					"./public/assets/fonts/fz.ttf",
-				],
-				weight: "400",
-				style: "normal",
-			},
-		],
+		name: "LXGW WenKai",
+		cssVariable: "--font-lxgw-wenkai",
+		provider: "local",
+		options: {
+			variants: [
+				{
+					src: ["./public/assets/fonts/fz.ttf"],
+					weight: "400",
+					style: "normal",
+				},
+			],
+		},
+		fallbacks: ["PingFang SC", "Microsoft YaHei", "sans-serif"],
 	},
-	fallbacks: [
-		"PingFang SC",
-		"Microsoft YaHei",
-		"sans-serif",
-	],
-},
 ];
 
 // ─── 字体选择与区域覆盖 ─────────────────────────────────────
