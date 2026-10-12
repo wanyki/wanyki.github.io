@@ -218,7 +218,12 @@ async function fetchMemosInternal(
 	}
 
 	return allMemos
-		.filter((memo) => memo.state === "NORMAL")
+		.filter(
+			(memo) =>
+				memo.state === "NORMAL" &&
+				memo.visibility === "PUBLIC" &&
+				(!parent || memo.creator === parent),
+		)
 		.map((memo) => {
 			const id = memo.name.split("/").pop() || "";
 			const published = new Date(memo.createTime).getTime();
