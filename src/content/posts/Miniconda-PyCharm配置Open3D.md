@@ -1,7 +1,8 @@
 ---
 title: Miniconda+PyCharm配置Open3D
 published: 2025-07-16 07:38:34
-tags: [Open3D]
+tags: ["Python","Conda","PyCharm","Open3D"]
+category: 技术实践
 author: 月初
 ---
 

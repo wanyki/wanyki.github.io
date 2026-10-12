@@ -1,7 +1,8 @@
 ---
 title: editplus 注册码汉化
 published: 2024-05-29 16:14:42
-tags: [软件备份]
+tags: ["EditPlus","软件工具","汉化"]
+category: 技术实践
 author: 月初
 ---
 

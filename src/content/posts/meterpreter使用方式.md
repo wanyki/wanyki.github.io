@@ -1,7 +1,8 @@
 ---
 title: meterpreter使用方式
 published: 2023-08-02 13:14:41
-tags: [kali]
+tags: ["Kali Linux","Metasploit","Meterpreter","学习笔记"]
+category: 网络安全
 ---
 
 #### meterpreter生成后门Windows可执行文件

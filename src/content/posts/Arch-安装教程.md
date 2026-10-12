@@ -1,7 +1,8 @@
 ---
 title: Arch 安装教程
 published: 2024-02-15 12:15:51
-tags: [arch]
+tags: ["Linux","Arch Linux","系统安装","SSH"]
+category: 技术实践
 author: 月初
 ---
 

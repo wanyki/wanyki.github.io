@@ -1,7 +1,8 @@
 ---
 title: python小记
 published: 2023-08-05 19:03:20
-tags: [python]
+tags: ["Python","基础语法","学习笔记"]
+category: 编程学习
 ---
 
 ### 变量

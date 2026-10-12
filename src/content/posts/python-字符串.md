@@ -1,7 +1,8 @@
 ---
 title: python 字符串
 published: 2023-08-07 09:12:22
-tags: [python]
+tags: ["Python","字符串","学习笔记"]
+category: 编程学习
 ---
 
 ### 字符串

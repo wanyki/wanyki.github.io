@@ -105,7 +105,7 @@ export const siteConfig: SiteConfig = {
 		// 赞助页面开关
 		sponsor: false,
 		// 留言板页面开关，需要配置评论系统
-		guestbook: true,
+		guestbook: false,
 		// 番组计划页面开关，含追番、游戏、书籍和音乐
 		bangumi: true,
 		// 相册页面开关
@@ -203,13 +203,13 @@ export const siteConfig: SiteConfig = {
 		// 详情页地址
 		subjectBaseUrl: "https://bgmmi.anibt.net/subject/",
 		// 条目类型排序，数组中的类型将按顺序优先展示
-		// 可选值: "anime" | "book" | "music" | "game" | "real" (暂不支持"real"类型)
+		// 可选值: "anime" | "book" | "music" | "game" | "real"
 		// 未列出的类型将按默认顺序排在后面
-		categoryOrder: ["anime", "book", "music", "game"],
-		// 控制各分类的启用状态（true/false），未指定的分类默认启用
-		// categories: {
-		// 	game: false, // 禁用游戏分类显示
-		// },
+		categoryOrder: ["anime", "book", "music", "game", "real"],
+		// 控制各分类的启用状态，未指定时书籍、动画、音乐、游戏默认启用
+		categories: {
+			real: true, // 启用三次元分类
+		},
 	},
 
 	// 追番配置（Bilibili + TMDB）

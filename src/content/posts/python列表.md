@@ -1,7 +1,8 @@
 ---
 title: 列表
 published: 2023-08-07 15:44:26
-tags: [python]
+tags: ["Python","列表","学习笔记"]
+category: 编程学习
 ---
 
 ### 列表

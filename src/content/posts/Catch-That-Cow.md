@@ -1,7 +1,8 @@
 ---
 title: Catch That Cow
 published: 2024-01-17 17:08:45
-tags: [C++]
+tags: ["C++","广度优先搜索","题解"]
+category: 算法与数据结构
 ---
 
 Farmer John has been informed of the location of a fugitive cow and wants to catch her immediately. He starts at a point *N* (0 ≤ *N* ≤ 100,000) on a number line and the cow is at a point *K* (0 ≤ *K* ≤ 100,000) on the same number line. Farmer John has two modes of transportation: walking and teleporting.

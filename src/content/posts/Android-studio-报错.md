@@ -1,7 +1,8 @@
 ---
 title: Android studio 报错
 published: 2024-02-08 13:19:05
-tags: [Android studios]
+tags: ["Android Studio","Android","模拟器","故障排查"]
+category: 技术实践
 ---
 
 # The emulator process for AVD Pixel_2_API_30 has terminated.

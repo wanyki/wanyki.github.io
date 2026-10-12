@@ -1,7 +1,8 @@
 ---
 title: linux期末复习
 published: 2024-06-27 18:22:16
-tags: [linux]
+tags: ["Linux","命令行","学习笔记","期末复习"]
+category: 技术实践
 author: 月初
 ---
 
