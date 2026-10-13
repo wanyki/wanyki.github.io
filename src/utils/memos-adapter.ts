@@ -121,18 +121,30 @@ function extractPlainText(content: string): string {
  */
 function extractImages(memo: Memo, memosApiUrl: string): DynamicImage[] {
 	const images: DynamicImage[] = [];
+	const seenImages = new Set<string>();
+	const baseUrl = `${memosApiUrl.replace(/\/$/, "")}/`;
+
+	const addImage = (image: DynamicImage): void => {
+		const imageUrl = new URL(image.src, baseUrl);
+		// 同一个附件可能同时出现在正文和附件列表中，且正文 URL 不带文件名。
+		const attachmentId = imageUrl.pathname.match(
+			/^\/file\/attachments\/([^/]+)(?:\/|$)/,
+		)?.[1];
+		const key = attachmentId
+			? `${imageUrl.origin}/file/attachments/${attachmentId}`
+			: imageUrl.href;
+		if (seenImages.has(key)) return;
+		seenImages.add(key);
+		images.push({ ...image, src: imageUrl.href });
+	};
 
 	// 从 Markdown 内容中提取图片
 	const imagePattern = /!\[([^\]]*)\]\(([^)]+)\)/g;
 	let match: RegExpExecArray | null;
 	match = imagePattern.exec(memo.content);
 	while (match !== null) {
-		let src = match[2];
-		// 处理相对路径
-		if (!src.startsWith("http") && !src.startsWith("//")) {
-			src = `${memosApiUrl}${src.startsWith("/") ? "" : "/"}${src}`;
-		}
-		images.push({
+		const src = match[2];
+		addImage({
 			alt: match[1] || "",
 			src,
 		});
@@ -147,8 +159,8 @@ function extractImages(memo: Memo, memosApiUrl: string): DynamicImage[] {
 				const attachmentId = attachment.name.split("/").pop() || "";
 				const src =
 					attachment.externalLink ||
-					`${memosApiUrl}/file/attachments/${attachmentId}/${attachment.filename}`;
-				images.push({
+					`${baseUrl}file/attachments/${attachmentId}/${attachment.filename}`;
+				addImage({
 					alt: attachment.filename,
 					src,
 					title: attachment.filename,
