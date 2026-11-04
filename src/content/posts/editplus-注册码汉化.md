@@ -1,4 +1,5 @@
 ---
+
 title: editplus 注册码汉化
 published: 2024-05-29 16:14:42
 tags: ["EditPlus","软件工具","汉化"]
@@ -30,4 +31,3 @@ Reg Code.: YWYJ4-YE2E2-4CLAA-CAWEU-LWLLL
 ![](https://img.yuechucard.space/blog/editplus/2.png)右键安装好的editplus
 
 ![](https://img.yuechucard.space/blog/editplus/3.png)
-

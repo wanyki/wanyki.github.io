@@ -1,4 +1,5 @@
 ---
+
 title: Arch 安装教程
 published: 2024-02-15 12:15:51
 tags: ["Linux","Arch Linux","系统安装","SSH"]
@@ -381,4 +382,3 @@ sudo sh ./install.sh
 ```
 rm -rf ***
 ```
-

@@ -1,4 +1,5 @@
 ---
+
 title: Miniconda+PyCharm配置Open3D
 published: 2025-07-16 07:38:34
 tags: ["Python","Conda","PyCharm","Open3D"]
@@ -15,8 +16,6 @@ author: 月初
 #### 2.安装时注意选择添加path
 
 #### 3.使用Anaconda Prompt
-
-
 
 ![](https://img.yuechucard.space/blog/Miniconda/2.png)
 
@@ -35,8 +34,6 @@ activate python38
 ```
 
 #### 6.配置PyCharm,添加解释器（注意选择当时命名的python38）
-
-
 
 ![](https://img.yuechucard.space/blog/Miniconda/3.png)
 
@@ -72,8 +69,4 @@ conda install numpy
 ```
 #### 8.正确结果
 
-
-
 ![](https://img.yuechucard.space/blog/Miniconda/6.png)
-
-

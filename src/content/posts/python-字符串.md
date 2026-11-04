@@ -1,4 +1,5 @@
 ---
+
 title: python 字符串
 published: 2023-08-07 09:12:22
 tags: ["Python","字符串","学习笔记"]
@@ -48,4 +49,3 @@ li=["my","name","is","jwq"]
 print(str.join(li))
 #print:my_name_is_jwq
 ```
-

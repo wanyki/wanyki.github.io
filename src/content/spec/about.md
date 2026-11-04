@@ -28,7 +28,6 @@
 | **Manyour**        | [manyour.cn](https://manyour.cn/)                 | 界面清新，体验优良     |
 | **ICardYou (ICY)** | [icardyou.icu](https://icardyou.icu/index)        | 资深玩家云集的交流地   |
 
-
 ---
 
 ## 🛠️ 关于本站
@@ -37,4 +36,4 @@
 
 在此十分感谢以上大佬的付出！
 
-*感谢你的来访！希望在这里能找到对你有用的内容！*
+_感谢你的来访！希望在这里能找到对你有用的内容！_

