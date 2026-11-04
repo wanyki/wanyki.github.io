@@ -50,7 +50,7 @@ jobs:
           port: 22
           script: |
             # 清空目标目录（保留宝塔配置文件）
-            find /www/wwwroot/www.wonique.space -mindepth 1 ! -name '.user.ini' -exec rm -rf {} +
+            find /www/wwwroot/blog.wonique.space -mindepth 1 ! -name '.user.ini' -exec rm -rf {} +
             
       - name: Upload dist files via SCP
         uses: appleboy/scp-action@v0.1.7
@@ -60,6 +60,6 @@ jobs:
           key: ${{ secrets.ALIYUN_KEY }}
           port: 22
           source: "dist/*"
-          target: "/www/wwwroot/www.wonique.space"
+          target: "/www/wwwroot/blog.wonique.space"
           strip_components: 1
 
